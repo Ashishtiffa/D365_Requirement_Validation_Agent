@@ -29,7 +29,7 @@ Write a fully self-contained HTML file (no external CDN links, all CSS inline). 
 - New Build (red, #dc3545)
 
 ### Requirements Table
-Columns: `#` | `Requirement` | `Classification` | `D365 Module / Feature` | `Justification & Implementation Notes` | `Effort` | `Confidence` | `Documentation`
+Columns: `#` | `Requirement` | `Classification` | `D365 Module / Feature` | `Justification & Implementation Notes` | `Confidence` | `Documentation`
 
 - Classification column: colored badge — Green="No Modification", Orange="Little Modification", Red="New Build"
 - Documentation column: clickable anchor tags
@@ -70,7 +70,6 @@ Write a JSON file with this structure:
       "documentation_urls": ["https://..."],
       "justification": "...",
       "implementation_notes": "...",
-      "effort_estimate": "1-2 days",
       "confidence": "high"
     }
   ]

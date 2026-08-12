@@ -80,7 +80,6 @@ Evidence: No matching documentation, or articles explicitly state custom develop
   ],
   "justification": "D365 Sales includes built-in lead management with Sales Insights providing AI-driven lead scoring. The feature is available OOB once Sales Insights license is enabled — no custom code required.",
   "implementation_notes": "Enable Sales Insights in Settings > Sales Insights > Overview. Configure scoring model in Lead Scoring settings. Assign Sales Premium or Sales Insights license to users.",
-  "effort_estimate": "1-2 days configuration",
   "confidence": "high"
 }
 ```

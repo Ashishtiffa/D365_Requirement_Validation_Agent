@@ -76,7 +76,6 @@ const CLASSIFICATION_SCHEMA = {
     documentation_urls:  { type: 'array', items: { type: 'string' } },
     justification:       { type: 'string' },
     implementation_notes:{ type: 'string' },
-    effort_estimate:     { type: 'string' },
     confidence: {
       type: 'string',
       enum: ['high', 'medium', 'low'],
@@ -208,7 +207,6 @@ ${moduleContext}
 
 4. Always cite the URL of the documentation page you relied on.
 5. Provide specific implementation_notes (actual steps, settings, or components needed).
-6. Estimate effort: e.g. "1-2 days config", "1-2 weeks Power Automate + forms", "4-8 weeks custom dev".
 
 NEVER hallucinate features. Only classify based on what documentation actually states.`,
     {
