@@ -1,0 +1,74 @@
+{
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "requirement": "Sales reps must be able to track leads from initial contact through qualification, with automatic lead scoring based on demographic and behavioral data.",
+      "module": "Sales",
+      "category": "Lead Management",
+      "priority": "High"
+    },
+    {
+      "id": "REQ-002",
+      "requirement": "The system must send automated email notifications to customers when their support case status changes (e.g., from Open to In Progress, or Resolved).",
+      "module": "Customer Service",
+      "category": "Case Management",
+      "priority": "High"
+    },
+    {
+      "id": "REQ-003",
+      "requirement": "Field technicians need a mobile app to view their daily work orders, capture before/after photos, record parts used, and collect digital signatures from customers.",
+      "module": "Field Service",
+      "category": "Work Order Management",
+      "priority": "High"
+    },
+    {
+      "id": "REQ-004",
+      "requirement": "The system must integrate in real-time with our legacy SAP ERP to synchronize purchase orders, goods receipts, and vendor invoices bidirectionally with conflict resolution.",
+      "module": "Finance",
+      "category": "Integration",
+      "priority": "Critical"
+    },
+    {
+      "id": "REQ-005",
+      "requirement": "Finance team needs to define multi-level budget controls with approval workflows. Purchases exceeding budget thresholds should be blocked until a manager approves an override.",
+      "module": "Finance",
+      "category": "Budget Management",
+      "priority": "High"
+    },
+    {
+      "id": "REQ-006",
+      "requirement": "Warehouse managers need AI-driven demand forecasting that accounts for seasonality, promotions, and external market signals to auto-generate replenishment orders.",
+      "module": "Supply Chain Management",
+      "category": "Inventory Planning",
+      "priority": "Medium"
+    },
+    {
+      "id": "REQ-007",
+      "requirement": "The system must provide a 360-degree customer view showing all interactions (emails, calls, meetings, cases, orders, invoices) in a single timeline regardless of which department handled them.",
+      "module": "Sales",
+      "category": "Customer Intelligence",
+      "priority": "High"
+    },
+    {
+      "id": "REQ-008",
+      "requirement": "HR managers need to configure custom performance review cycles with multi-rater (360°) feedback, competency-based ratings, and automatic calibration workflows.",
+      "module": "Human Resources",
+      "category": "Performance Management",
+      "priority": "Medium"
+    },
+    {
+      "id": "REQ-009",
+      "requirement": "The application must support a custom approval matrix where purchase order approvals are routed based on amount thresholds, cost center, and requester seniority level, with delegation and escalation rules.",
+      "module": "Finance",
+      "category": "Procurement",
+      "priority": "High"
+    },
+    {
+      "id": "REQ-010",
+      "requirement": "Marketing team needs to run multi-channel marketing campaigns (email, SMS, social media) with A/B testing, real-time engagement tracking, and automatic lead handoff to Sales when a lead score threshold is reached.",
+      "module": "Marketing",
+      "category": "Campaign Management",
+      "priority": "High"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(https://learn.microsoft.com/*)",
+      "WebFetch(https://techcommunity.microsoft.com/*)",
+      "WebSearch(*dynamics 365*)",
+      "WebSearch(*D365*)",
+      "WebSearch(*Microsoft Dynamics*)",
+      "Read(*.json)",
+      "Read(*.txt)",
+      "Read(*.csv)",
+      "Write(*.html)",
+      "Write(*.json)"
+    ]
+  }
+}
